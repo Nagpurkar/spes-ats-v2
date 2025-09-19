@@ -4,7 +4,7 @@ const path = require('path');
 const fs = require('fs');
 const cors = require('cors');
 
-const parser = require('./parser2');
+const parser = require('./parser2.cjs');
 
 const app = express();
 const port = 3000;
